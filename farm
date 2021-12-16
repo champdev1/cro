@@ -15,7 +15,7 @@ contract CrocosFarm is Ownable {
   ICrocosNFT public crocosNft;
   ICrocosToken public yieldToken;
   address public admin = 0x9bEfE423d12915839B0904C63a10D5F8225375D9;
-  uint256 public constant dailyReward = 400 ether * 1000 / 1000; //1.2% of 400 ftm
+  uint256 public constant dailyReward = 400 ether * 1000 / 1000; //1.2% of 400 cro
   mapping(address => uint256) public harvests;
   mapping(address => uint256) public lastUpdate;
   mapping(uint => address) public ownerOfToken;
